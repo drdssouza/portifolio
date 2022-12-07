@@ -383,7 +383,8 @@ img{
 /* For small devices */
 @media screen and (max-width: 420px) {
   .home__img {
-    width: 230px;
+    width: 500px;
+    right: -20%;
     
   }
 }
@@ -482,13 +483,14 @@ img{
     }
 }
 
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
+
+@media screen and (min-width: 421px) {
     .home__container {
         height: 640px;
     }
     .home__img {
         width: 500px;
         right: 24%;
+        
     }
 }
